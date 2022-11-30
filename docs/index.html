@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luban Kit</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/_media/favicon-32x32.png">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+</head>
+<body>
+<div id="app">加载中...</div>
+<script>
+    window.$docsify = {
+        name: 'Luban Kit',
+        nameLink: '/',
+        coverpage: true,
+        loadSidebar: true,
+        loadNavbar: true,
+        maxLevel: 4,
+        auto2top: true,
+        ga: 'G-2X5YDZKV2H',
+        search: {
+            maxAge: 86400000,
+            paths: 'auto',
+            placeholder: '搜索',
+            noData: '找不到结果',
+            depth: 2,
+            hideOtherSidebarContent: true,
+            namespace: 'website-1',
+            pathNamespaces: ['/'],
+        }
+    }
+</script>
+<!-- Docsify v4 -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+<!-- 全文搜索 -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+<!-- Gitalk评论系统。 -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+        clientID: 'a065827de3463e4ee063',
+        clientSecret: '3fba070927c3cd929587af8caccdb5a39fe55481',
+        repo: 'https://github.com/Ly-Alex/luban-kit',
+        owner: 'Ly-Alex',
+        admin: ['Ly-Alex'],
+        // facebook-like distraction free mode
+        distractionFreeMode: false
+    })
+</script>
+
+<!-- 在 Github 上编辑 -->
+<script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+
+<!-- 谷歌统计 - Google Analytics -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+
+<!-- 复制到剪贴板 -->
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
+<!-- 图片缩放 - Zoom image -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+<!-- emoji -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+<!-- 语言高亮 -->
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+</body>
+</html>
