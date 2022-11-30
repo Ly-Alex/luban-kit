@@ -28,7 +28,7 @@
 
 ## 文档
 
-> [https://github.com/Ly-Alex/luban-kit/main/docs 在线文档](https://github.com/Ly-Alex/luban-kit/main/docs)
+> [在线文档 : https://ly-alex.github.io/luban-kit](https://ly-alex.github.io/luban-kit/)
 
 ## 工具清单
 
