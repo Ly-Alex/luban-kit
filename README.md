@@ -13,8 +13,6 @@
 	<a><img src="https://img.shields.io/github/license/Ly-Alex/luban-kit" alt=""/></a>
 </p>
 
-------
-
 ## 背景故事
 
 **鲁班 [lǔ bān]**
