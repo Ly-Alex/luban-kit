@@ -70,5 +70,8 @@ venv.bak/
 dmypy.json
 .pyre/
 
+# default
+.idea/
+.deta/
 venv/
-.settings.py
+settings.py
