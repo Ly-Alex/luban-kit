@@ -80,4 +80,4 @@ docsify serve dosc
 ## 联系作者
 
 - QQ：776676504
-- 邮箱：feiyurs0@gmail.com
+- 邮箱：alexvitalik8@gmail.com
