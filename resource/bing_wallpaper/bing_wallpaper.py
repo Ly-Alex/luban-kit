@@ -45,8 +45,11 @@ class BingWallpaperResource(Resource):
         date = args.get('date')
         blur = args.get('blur')
 
+        # 格式化时间
+        fmt_date = DateUtil.format_date(date)
+
         # 从数据库获取壁纸数据
-        db_result = self.bing_db.fetch(query={'date': date, 'resolution': resolution.value, 'blur': blur},
+        db_result = self.bing_db.fetch(query={'date': fmt_date, 'resolution': resolution.value, 'blur': blur},
                                        limit=1)
 
         # 数据库中存在, 直接返回数据库中的数据
@@ -61,7 +64,7 @@ class BingWallpaperResource(Resource):
             )
 
         # 如果数据库中不存在, 则调用爬虫
-        bing_spider = BingSpider(date, resolution)
+        bing_spider = BingSpider(fmt_date, resolution)
         bing_json = bing_spider.run()
 
         image_format = 'jpeg'

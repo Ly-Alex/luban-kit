@@ -32,10 +32,10 @@
 
 > Base Url : [https://luban-kit.deta.dev/](https://luban-kit.deta.dev/)
 
-|    名称     |     地址     |
-|:---------:|:----------:|
-|   必应壁纸    |   /bing    |
-| 必应壁纸 Json | /bing/json |
+| 名称          | URL 后缀   | 文档地址 |
+| :------------ | :--------- | -------- |
+| 必应壁纸      | /bing      |          |
+| 必应壁纸 Json | /bing/json |          |
 
 ## 目录结构
 

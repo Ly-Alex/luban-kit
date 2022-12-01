@@ -39,7 +39,10 @@ class BingJsonResource(Resource):
         resolution = args.get('resolution')
         description = args.get('description')
 
-        res = self.bing_db.fetch(query=[{'blur': blur}, {'date': date}, {'resolution': resolution.value},
+        # 格式化时间
+        fmt_date = DateUtil.format_date(date)
+
+        res = self.bing_db.fetch(query=[{'blur': blur}, {'date': fmt_date}, {'resolution': resolution.value},
                                         {'title?contains': title}, {'description?contains': description}],
                                  limit=limit,
                                  last=last)
