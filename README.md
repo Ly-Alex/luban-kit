@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="logo" height="15%" width="15%" src="docs/_media/logo.png">
+    <img alt="logo" height="15%" width="15%" src="docs/_media/logo.png">
 </p>
 
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">鲁班工具箱 (Luban Kit)</h1>
