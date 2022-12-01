@@ -71,7 +71,7 @@ docsify serve dosc
 
 ## 关于开源协议
 
-> 该项目为开源项目，使用请遵守 **Apache License 2.0** 协议，并务必保留作者、Copyright 信息。
+> 该项目为开源项目，使用请遵守 **Apache License 2.0** 协议，并务必保留作者和 Copyright 信息。
 
 ## 其他说明
 
