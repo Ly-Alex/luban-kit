@@ -11,4 +11,4 @@
 - 所有资源免费提供
 
 [GitHub](https://github.com/Ly-Alex/luban-kit)
-[开始](#鲁班工具箱)
+[开始](#home)
