@@ -30,12 +30,10 @@
 
 ## 工具清单
 
-> Base Url : [https://luban-kit.deta.dev/](https://luban-kit.deta.dev/)
-
-| 名称          | URL 后缀   | 文档地址 |
-| :------------ | :--------- | -------- |
-| 必应壁纸      | /bing      |          |
-| 必应壁纸 Json | /bing/json |          |
+| 名称          | 接口地址                             |
+| :------------ | :----------------------------------- |
+| 必应壁纸      | https://luban-kit.deta.dev/bing      |
+| 必应壁纸 Json | https://luban-kit.deta.dev/bing/json |
 
 ## 目录结构
 
