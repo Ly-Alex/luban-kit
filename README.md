@@ -73,6 +73,8 @@ docsify serve dosc
 
 ## 其他说明
 
+> 本项目所有资源均来自于互联网，如有侵权请及时联系删除。
+
 > 欢迎提交 [issues](https://github.com/Ly-Alex/luban-kit/issues) ，并填写清楚遇到的问题及原因、环境、复显步骤等。
 
 ## 联系作者
