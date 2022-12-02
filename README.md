@@ -6,11 +6,13 @@
 <h5 align="center">一个免费、开源、好用的在线工具箱</h5>
 
 <p align="center">
-	<a><img src="https://img.shields.io/github/stars/Ly-Alex/luban-kit?style=social" alt=""/></a>
-    <a><img src="https://img.shields.io/github/forks/Ly-Alex/luban-kit?style=social" alt=""/></a>
-	<a><img src="https://img.shields.io/github/issues/Ly-Alex/luban-kit" alt=""/></a>
-	<a><img src="https://img.shields.io/github/repo-size/Ly-Alex/luban-kit" alt=""/></a>
-	<a><img src="https://img.shields.io/github/license/Ly-Alex/luban-kit" alt=""/></a>
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Ly-Alex/luban-kit?style=social">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Ly-Alex/luban-kit?style=social">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/Ly-Alex?style=social">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/Ly-Alex/luban-kit">
+    <img alt="GitHub" src="https://img.shields.io/github/license/Ly-Alex/luban-kit">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Ly-Alex/luban-kit">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Ly-Alex/luban-kit/Deploy%20to%20Deta">
 </p>
 
 ## 背景故事
