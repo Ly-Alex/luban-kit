@@ -5,6 +5,9 @@ on:
       - main
     paths-ignore:
       - 'docs/**'
+      - 'README.md'
+      - 'LICENSE'
+      - '.gitignore'
 jobs:
   deploy:
     runs-on: ubuntu-latest
